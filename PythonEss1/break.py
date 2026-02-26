@@ -18,9 +18,19 @@
 # print("Outside the loop.")
 
 
+# secret_word = "chupacabra"
+# while True:
+    # word = input("Enter the secret word ")
+    # if word == secret_word:
+        # print ("You've successfully left the loop.")
+        # break
+
+counter = 5
+
 secret_word = "chupacabra"
-while True:
+while counter > 0:
     word = input("Enter the secret word ")
     if word == secret_word:
         print ("You've successfully left the loop.")
         break
+    counter -= 1
